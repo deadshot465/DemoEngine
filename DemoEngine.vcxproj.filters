@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\DX">
+      <UniqueIdentifier>{16649a94-0a94-4877-9eb8-7b64ceeea440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\DX\DX11">
+      <UniqueIdentifier>{f489df17-796d-46a3-a16b-20ea6d65c818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\DX\DX12">
+      <UniqueIdentifier>{0fd068b2-acf8-49b3-b378-e24f6f730f73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\DX">
+      <UniqueIdentifier>{f94da661-ff2e-416f-9237-0535923ed3ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\DX\DX11">
+      <UniqueIdentifier>{64ab8378-b4fe-47d9-a93f-13b62841b686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\DX\DX12">
+      <UniqueIdentifier>{8d866859-c867-4629-a84e-145f684ab27a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ISwapChainDX.cpp">
+      <Filter>ソース ファイル\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="IWindow.cpp">
+      <Filter>ソース ファイル\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowDX.cpp">
+      <Filter>ソース ファイル\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="BufferDX11.cpp">
+      <Filter>ソース ファイル\DX\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsDeviceDX11.cpp">
+      <Filter>ソース ファイル\DX\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="SwapChainDX11.cpp">
+      <Filter>ソース ファイル\DX\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceContext.cpp">
+      <Filter>ソース ファイル\DX\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsDeviceDX12.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SwapChainDX12.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DescriptorHeap.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandQueue.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Fence.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="PipelineDX12.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DXHelper.h">
+      <Filter>ヘッダー ファイル\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="IBufferDX.h">
+      <Filter>ヘッダー ファイル\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="ISwapChainDX.h">
+      <Filter>ヘッダー ファイル\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="IWindow.h">
+      <Filter>ヘッダー ファイル\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowDX.h">
+      <Filter>ヘッダー ファイル\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferDX11.h">
+      <Filter>ヘッダー ファイル\DX\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsDeviceDX11.h">
+      <Filter>ヘッダー ファイル\DX\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="SwapChainDX11.h">
+      <Filter>ヘッダー ファイル\DX\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceContext.h">
+      <Filter>ヘッダー ファイル\DX\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderDX11.h">
+      <Filter>ヘッダー ファイル\DX\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsDeviceDX12.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SwapChainDX12.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DescriptorHeap.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandQueue.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dx12.h">
+      <Filter>ヘッダー ファイル\DX\DX12</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Fence.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="PipelineDX12.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shader\DX11\VertexShader.hlsl" />
+    <FxCompile Include="shader\DX11\PixelShader.hlsl" />
+    <FxCompile Include="VertexShaderDX12.hlsl" />
+    <FxCompile Include="PixelShaderDX12.hlsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
