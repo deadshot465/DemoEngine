@@ -1,3 +1,4 @@
 .vs/
 packages/
 x64/
+d3dx12.h
